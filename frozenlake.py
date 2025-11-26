@@ -198,3 +198,5 @@ def play(env):
         state, r, done = env.step(actions.index(c))
         env.render()
         print("Reward:", r)
+
+        
